@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pkl
+.venv/
+venv/
+
+# Demo/training artifacts
+SnakeEvolutionAI/checkpoints/
+SnakeEvolutionAI/demo_artifacts/
+SnakeEvolutionAI/q_table.json
+SnakeEvolutionAI/q_table.pkl
+SnakeEvolutionAI/checkpoint_metrics.csv
+
+# C# / .NET / MonoGame
+**/bin/
+**/obj/
+**/.vs/
+
+# Local environment folders
+**/.dotnet/
+**/.nuget/
+**/.appdata/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
