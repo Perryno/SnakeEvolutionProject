@@ -27,6 +27,8 @@ Open a terminal in `SnakeEvolutionAI/`.
 python .\run-demo.py
 ```
 
+- During demo mode, MonoGame auto-closes after each game with `--auto-exit` or can be closed with `Esc`.
+
 ### 2) Standard training + MonoGame playback
 
 ```powershell
@@ -44,8 +46,3 @@ This will:
 - `SnakeEvolutionAI/q_table.pkl`
 - `SnakeEvolutionAI/q_table.json`
 - `SnakeEvolutionAI/demo_artifacts/checkpoints/`
-
-## Notes
-
-- During demo mode, MonoGame auto-closes after each game (`--auto-exit`).
-- During standard mode, MonoGame starts once with the final trained policy.
